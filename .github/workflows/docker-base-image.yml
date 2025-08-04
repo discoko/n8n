@@ -51,8 +51,8 @@ jobs:
           sbom: ${{ github.event_name == 'push' }}
           push: ${{ github.event_name == 'push' }}
           tags: |
-            discoko/n8n:base-${{ matrix.node_version }}-${{ github.sha }}
-            discoko/n8n:base-${{ matrix.node_version }}
+            discoko/n8n-base:${{ matrix.node_version }}-${{ github.sha }}
+            discoko/n8n-base:${{ matrix.node_version }}
             ghcr.io/${{ github.repository_owner }}/base:${{ matrix.node_version }}-${{ github.sha }}
             ghcr.io/${{ github.repository_owner }}/base:${{ matrix.node_version }}
           cache-from: type=gha
