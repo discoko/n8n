@@ -27,7 +27,10 @@ export const STORES = {
 	BECOME_TEMPLATE_CREATOR: 'becomeTemplateCreator',
 	PROJECTS: 'projects',
 	API_KEYS: 'apiKeys',
-	TEST_DEFINITION: 'testDefinition',
+	EVALUATION: 'evaluation',
 	FOLDERS: 'folders',
 	MODULES: 'modules',
+	FOCUS_PANEL: 'focusPanel',
+	AI_TEMPLATES_STARTER_COLLECTION: 'aiTemplatesStarterCollection',
+	PERSONALIZED_TEMPLATES: 'personalizedTemplates',
 } as const;
